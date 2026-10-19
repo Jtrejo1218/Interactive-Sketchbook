@@ -25,3 +25,18 @@ nav a {
     text-decoration: none;
     margin: 10px;
 }
+.about-container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.about-container iframe {
+    max-width: 100%;
+}
+
+.about-container p {
+    flex: 1;
+    min-width: 250px;
+}
