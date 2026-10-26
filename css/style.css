@@ -84,3 +84,20 @@ nav {
     flex: 1;
     min-width: 250px;
 }
+ header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+img {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, p, nav {
+    text-align: center;
+}
